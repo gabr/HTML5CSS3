@@ -1,0 +1,13 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+/* TEAM */
+  Arkadiusz Gabryś
+  GitHub: https://github.com/gabr
+  Location: around in Poland
+
+/* SITE */
+    Standards: HTML5
+    Language: Polish programmers slang
+    IDE: Vim/Gvim
+
