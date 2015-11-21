@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- Dokładnie porównaj kod i podlicz punkty. Maksymalnie możesz zdobyć 15pt.-->
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+		<!-- Prawidłowy tytuł stron 1pt -->
+		<title>Geekopedia</title>
+	</head>
+	<body>
+		<!-- Tag header, który grupuje nagłówki, logo i menu 1pt -->
+		<header>
+			<!-- Prawidłowe przydzielenie stopni nagłówkom 1pt -->
+			<h1>Geekopedia</h1>
+			<h2>Tylko dla prawdziwych fanów</h2>
+			<!-- Wstawienie logo 1 pt -->
+			<img src="http://picard578.hostoi.com/startrek-vs-starwars/img_index/starfleet-logo.png">
+			<!-- Użycie <nav> do zgrupowania linków do innych podstron 1 pt -->
+			<nav>
+				<!-- Umieszczenie linków w nieuporządkowanej liście 1pt -->
+				<ul>
+					<li><a href="?page_id=1">Aktualności</a></li>
+					<li><a href="?page_id=2">O nas</a></li>
+					<li><a href="?page_id=3">Archiwum tekstów</a></li>
+					<li><a href="?page_id=4">Galeria</a></li>
+					<li><a href="?page_id=5">Konwenty</a></li>
+				</ul>
+			</nav>
+		</header>
+		<!-- Wstawienie całej zawartości artykułu w tag <article> 1pt -->
+		<article>
+			<!-- Prawidłowe oznaczenie nagłówka artykułu 1pt -->
+			<header>
+				<p>Co każdy geek musi wiedzieć czyli:</p>
+				<h1>Star Trek</h1>
+				<h2>Historia Gwiezdnej wędrówki</h2>
+			</header>
+			<!-- Te linki nie muszą być w tagu <nav> bo pełnią rolę bardziej spisu treści niż nawigacji, może je włożyć również  w <section>. Jeśli wstawiłaś/wstawiłeś całość w <nav> lub w <section> dodaj sobie 1pt -->
+			<nav>
+				<h1>przejdź do:</h1>
+				<ul>
+					<!-- Użycie linków do id sekcji 1 pt -->
+					<li><a href="#Seriale">Seriale telewizyjne</a></li>
+					<li><a href="#Filmy">Filmy</a></li>
+				</ul>
+			</nav>
+			<!-- Kolejne paragrafy włożone w tag <p> bez użycia <br/> 1pt -->
+			<!-- Wstawienie &nbsp; po każdym spójniku 1pt -->
+			<p>Seria sześciu fantastycznonaukowych seriali telewizyjnych, 11 filmów pełnometrażowych, a także dziesiątki książek, komiksów i&nbsp;gier komputerowych dziejących się w&nbsp;tym samym fikcyjnym uniwersum stworzonym przez Gene'a Roddenbery'ego w&nbsp;latach 60. Prawnym właścicielem nazwy Star Trek, znaków graficznych oraz postaci jest wytwórnia filmowa Paramount Pictures.</p>
+
+			<p>Ludzkość po zakończeniu III wojny światowej rozkwita. Po usunięciu z&nbsp;Ziemi chorób, nietolerancji, biedy i&nbsp;zażegnaniu konfliktów zbrojnych, przy współpracy części inteligentnych ras zamieszkujących galaktykę powstaje Zjednoczona Federacja Planet – międzygatunkowa unia, której celem jest pokojowe współistnienie poszczególnych ras zamieszkujących galaktykę oraz jej eksploracja.</p>
+
+			<p>Mottem wszystkich produkcji spod znaku Star Trek jest sentencja "Śmiało kroczyć tam, gdzie nie dotarł jeszcze żaden człowiek" (ang. To boldly go where no man has gone before).</p>
+			<!-- Sekcja Seriale (z przypisanym id lub bez) 1 pt -->
+			<section id="Seriale">
+				<h1>Seriale telewizyjne</h1>
+				<p>Star Trek został pierwotnie stworzony jako serial telewizyjny, który został po raz pierwszy wyemitowany w&nbsp;telewizji amerykańskiej 8 września 1966 r. Ogółem do dziś stworzono 6 seriali, w&nbsp;tym jeden animowany. W&nbsp;sumie obejmuje to 726 pojedynczych epizodów podzielonych na 30 serii.</p>
+			</section>
+			<!-- Sekcja Filmy (z przypisanym id lub bez) 1 pt -->
+			<section id="Filmy">
+				<h1>Filmy</h1>
+				<p>Na motywach oryginalnej serii i&nbsp;Następnego pokolenia nakręcono łącznie 11 pełnometrażowych filmów, które odniosły większy lub mniejszy sukces w&nbsp;kinach.</p>
+				<!-- Lista filmów w nieuporządkowanej liście 1 pt -->
+				<ul>
+					<li>Star Trek (Star Trek: The Motion Picture, 1979) (reż. Robert Wise)</li>
+					<li>Star Trek II: Gniew Khana (Star Trek: The Wrath of Khan, 1982) (reż. Nicholas Meyer)</li>
+					<li>Star Trek III: W&nbsp;poszukiwaniu Spocka (Star Trek III: The Search for Spock, 1984) (reż. Leonard Nimoy)</li>
+					<li>Star Trek IV: Powrót do Domu (aka Star Trek IV: Powrót na Ziemię) (Star Trek IV: The Voyage Home, 1986) (reż. Leonard Nimoy)</li>
+					<li>Star Trek V: Ostateczna Granica (Star Trek V: The Final Frontier, 1989) (reż. William Shatner)</li>
+					<li>Star Trek VI: Wojna o&nbsp;pokój (aka Star Trek VI: Nieodkryta kraina) (Star Trek VI: The Undiscovered Country, 1991) (reż. Nicholas Meyer)</li>
+					<li>Star Trek: Pokolenia (Star Trek: Generations, 1994) (reż. David Carson)</li>
+					<li>Star Trek: Pierwszy kontakt (Star Trek: First Contact, 1996) (reż. Jonathan Frakes)</li>
+					<li>Star Trek: Rebelia (Star Trek: Insurrection, 1998) (reż. Jonathan Frakes)</li>
+					<li>Star Trek: Nemesis (2002) (reż. Stuart Baird)</li>
+					<li>Star Trek (aka Star Trek XI, 2009) (reż. J.J. Abrams)</li>
+				</ul>
+			</section>
+			<!-- Linki zewnętrzne w tagu <aside> 1pt -->
+			<aside>
+				<h1>Linki zewnętrzne</h1>
+				<ul>
+					<li><a href="http://www.startrek.com/">Strona Główna Star Trek (ang.)</a></li>
+					<li><a href="http://en.memory-alpha.org/wiki/Portal:Main">Memory Alpha (ang.) – Encyklopedia Star Treka, oparta na oprogramowaniu wiki</a></li>
+					<li><a href="http://pl.memory-alpha.org/wiki/Strona_g%C5%82%C3%B3wna">Polska wersja Memory-Alpha (pol.)</a></li>
+					<li><a href="http://www.stopklatka.pl/film/film.asp?fi=6853">Star Trek w&nbsp;Stopklatka.pl (pol.)</a></li>
+				</ul>
+			</aside>
+		</article>
+	</body>
+</html>
